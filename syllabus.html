@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>1-Month Java Spring Boot + Angular Full Stack — Fast Track Syllabus</title>
+  <style>
+    :root{
+      --bg:#0f1724; --card:#0b1220; --accent:#6ee7b7; --muted:#94a3b8; --glass: rgba(255,255,255,0.04);
+      --max:1100px; --radius:14px; --gap:18px; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,#071022 0%, #071427 60%);color:#e6eef8}
+    .wrap{max-width:var(--max);margin:36px auto;padding:28px}
+
+    header{display:flex;gap:18px;align-items:center}
+    .logo{width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,#0ea5a9,#5eead4);display:flex;align-items:center;justify-content:center;font-weight:700;color:#012;box-shadow:0 6px 20px rgba(12,30,50,0.6)}
+    .title{flex:1}
+    h1{margin:0;font-size:22px;letter-spacing:-0.2px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 360px;gap:var(--gap);margin-top:22px}
+
+    .card{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));border-radius:var(--radius);padding:20px;box-shadow:0 8px 30px rgba(2,6,23,0.6);border:1px solid rgba(255,255,255,0.03)}
+
+    .syllabus{display:grid;gap:14px}
+    .week{display:flex;gap:12px;align-items:flex-start}
+    .week .num{width:56px;height:56px;border-radius:12px;background:var(--glass);display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--accent);font-size:18px;border:1px solid rgba(255,255,255,0.03)}
+    .week h3{margin:0;font-size:16px}
+    .week p{margin:6px 0 0;color:var(--muted);font-size:13px}
+    ul.feat{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:13px}
+
+    .right{position:relative}
+    .cta{display:flex;flex-direction:column;gap:12px}
+    .enroll{display:flex;gap:10px}
+    .btn{flex:1;padding:12px 14px;border-radius:10px;border:none;font-weight:700;cursor:pointer}
+    .btn.wh{background:linear-gradient(90deg,#25d366,#128c7e);color:#021;box-shadow:0 6px 16px rgba(18,140,126,0.18)}
+    .btn.email{background:linear-gradient(90deg,#3b82f6,#6366f1);color:white}
+
+    .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+    .chip{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:999px;font-size:13px;color:var(--muted)}
+
+    .project{margin-top:12px;padding:14px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);border:1px solid rgba(255,255,255,0.02)}
+    .project h4{margin:0 0 6px}
+    .project p{margin:0;color:var(--muted);font-size:13px}
+
+    footer{margin-top:22px;padding:14px;border-radius:12px;background:rgba(255,255,255,0.02);display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:980px){.grid{grid-template-columns:1fr} .right{order:-1}}
+
+    /* small flourish */
+    .timeline{margin-top:12px;display:flex;flex-direction:column;gap:12px}
+    .badge{display:inline-flex;align-items:center;gap:8px;padding:6px 10px;border-radius:999px;background:rgba(255,255,255,0.02);font-size:13px}
+
+    /* code-like box */
+    .codebox{background:#071926;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.02);font-family: ui-monospace,SFMono-Regular,Menlo,monospace;color:#bfe9d8;font-size:13px}
+
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">JS</div>
+      <div class="title">
+        <h1>1‑Month Fast‑Track — Java Spring Boot + Angular Full Stack</h1>
+        <p class="lead">Intensive, hands‑on syllabus with a mini project — built for rapid skill gains and a portfolio-ready outcome.</p>
+      </div>
+      <div style="text-align:right">
+        <div class="badge">Duration: 4 weeks • Format: Live / Recorded</div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main class="card">
+        <section class="syllabus">
+          <div class="week">
+            <div class="num">W1</div>
+            <div>
+              <h3>Week 1 — Core Java & Spring Boot Foundations</h3>
+              <p>A fast Java refresher followed by Spring Boot basics to build REST APIs and connect to a relational database.</p>
+              <ul class="feat">
+                <li>OOP, Collections, Streams & Lambdas</li>
+                <li>Spring Boot annotations, Controllers, Services, Repositories</li>
+                <li>application.yml, REST endpoints, DB connection (MySQL/Postgres)</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="week">
+            <div class="num">W2</div>
+            <div>
+              <h3>Week 2 — Backend Deep Dive</h3>
+              <p>Design robust REST APIs with validation, error handling, and basic security. Learn testing essentials.</p>
+              <ul class="feat">
+                <li>CRUD patterns, DTOs, Model mapping</li>
+                <li>Validation (@Valid), Global Exception Handling</li>
+                <li>Spring Security basics, JWT overview, Unit & Integration tests</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="week">
+            <div class="num">W3</div>
+            <div>
+              <h3>Week 3 — Angular Fundamentals</h3>
+              <p>Build responsive, component-driven UIs that consume your Spring APIs.</p>
+              <ul class="feat">
+                <li>Angular CLI, Components, Modules, Data binding</li>
+                <li>HttpClient, Observables (RxJS), Routing, Reactive Forms</li>
+                <li>Integration patterns and error handling</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="week">
+            <div class="num">W4</div>
+            <div>
+              <h3>Week 4 — Integration & Mini Project</h3>
+              <p>Finish a full-stack mini project, deploy locally or in Docker, and prepare a GitHub-ready portfolio.</p>
+              <ul class="feat">
+                <li>Connect Angular frontend to Spring Boot backend</li>
+                <li>CRUD flows, authentication (JWT or in-memory), E2E checks</li>
+                <li>Deploy backend (local/Docker), host frontend (static hosting)</li>
+              </ul>
+            </div>
+          </div>
+
+        </section>
+
+        <div class="timeline">
+          <div class="card" style="padding:14px;display:flex;justify-content:space-between;align-items:center">
+            <div>
+              <strong>Mini Project (Suggested)</strong>
+              <div style="color:var(--muted);font-size:13px">Task Management System — Users can create, update, view & delete tasks. JWT-based auth (optional).</div>
+            </div>
+            <div class="codebox">Stack: Java, Spring Boot, MySQL/Postgres, Angular, Docker (optional)</div>
+          </div>
+        </div>
+
+      </main>
+
+      <aside class="right">
+        <div class="card">
+          <div style="display:flex;align-items:center;gap:12px">
+            <div style="width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,#f472b6,#fb7185);display:flex;align-items:center;justify-content:center;font-weight:700;color:#081225">SB</div>
+            <div>
+              <div style="font-weight:700">Sibin Muhammed — Instructor</div>
+              <div style="color:var(--muted);font-size:13px;margin-top:6px">11+ years — Java, Cloud, Full Stack mentoring & career guidance</div>
+            </div>
+          </div>
+
+          <div class="meta">
+            <div class="chip">Format: Live / Recorded</div>
+            <div class="chip">Duration: 1 month (Fast‑track)</div>
+            <div class="chip">Level: Beginner → Intermediate</div>
+          </div>
+
+          <div style="margin-top:14px" class="project">
+            <h4>Enrollment</h4>
+            <p>Reserve your seat or request corporate batches. Limited slots — hands‑on, small class size for maximum mentorship.</p>
+            <div style="margin-top:12px;display:flex;gap:10px" class="enroll">
+              <a class="btn wh" href="https://wa.me/918075866854?text=I'm%20interested%20in%20the%201-month%20Java%20Fullstack%20program" target="_blank">WhatsApp • +91‑8075866854</a>
+              <a class="btn email" href="mailto:sibinmuhammed@gmail.com">Email • sibinmuhammed@gmail.com</a>
+            </div>
+          </div>
+
+          <div style="margin-top:12px;font-size:13px;color:var(--muted)">
+            <strong>Price & Options</strong>
+            <p style="margin:6px 0 0">Flexible pricing: Full course, Installments, Corporate rates. Ask for syllabus PDF & daily timetable.</p>
+          </div>
+
+        </div>
+
+        <div style="height:18px"></div>
+        <div class="card">
+          <h4 style="margin:0 0 6px">Quick Daily Plan (summary)</h4>
+          <p style="margin:0 0 8px;color:var(--muted);font-size:13px">Each week ~5 days of focused sessions (6hrs/day suggested), hands‑on labs, pair programming & review.</p>
+          <ul style="margin:0;padding-left:18px;color:var(--muted);font-size:13px">
+            <li>Day 1–5: Java + Spring fundamentals</li>
+            <li>Day 6–10: REST API & Security</li>
+            <li>Day 11–20: Angular + Integration</li>
+            <li>Day 21–30: Mini project, deploy, & polish</li>
+          </ul>
+        </div>
+
+      </aside>
+    </div>
+
+    <footer>
+      <div>© 2025 Sibin Muhammed • Java Spring Boot & Angular Full Stack</div>
+      <div style="opacity:0.9">Want this as PDF or a printable one‑pager? Ask me — I can export it for you.</div>
+    </footer>
+  </div>
+</body>
+</html>
